@@ -1,0 +1,95 @@
+/* Gaya dasar untuk keseluruhan halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('C:/xampp/htdocs/TUGASAKHIR/assets/lily-banse--YHSwy6uqvk-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: #0f0d0d;
+    color: #fff; /* Adjusted color to ensure contrast with background */
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+header .logo a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Gaya untuk judul utama */
+h1 {
+    text-align: center;
+    color: #ff6347;
+    margin-top: 20px;
+}
+
+/* Gaya untuk paragraf penjelasan */
+p {
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Gaya untuk sub-judul */
+h2 {
+    color: #ff6347;
+    margin-left: 20px;
+}
+
+/* Gaya untuk tautan email */
+a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Gaya untuk teks yang ditebalkan */
+strong {
+    color: #333;
+}
+
+/* Gaya untuk alamat dan jam operasional */
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Gaya untuk daftar tautan media sosial */
+p a {
+    margin-right: 10px;
+}
+
+b {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+/* Gaya untuk kontainer utama */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+/* Gaya untuk form (jika ada di masa depan) */
+form {
+    margin: 20px;
+}
